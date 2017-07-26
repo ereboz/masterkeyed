@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    @Html.Partial("_Head")
+</head>
+<!--Created by javaBoxer on 6/26/2017 -->
+<body>
+@Html.Partial("_BodyOpen")
+<!--START BLUE BANNER AT TOP-->
+<div class="bg-banner">
+    <div class="container" id="banner">
+        <div class="wrapper-banner">
+            <div class="row">
+                <div class="banner-phone">                              <!-- col's defined in less -->
+                    <span class="glyphicon glyphicon-phone-alt phone-icon"></span>
+                    <span class="banner-phone-text">
+                        <span class="phone-text">Call Us</span>
+                        <span class="phone-number">1.800.778.2217</span>
+                    </span>
+                </div>
+                <div class="banner-message">                            <!-- col's defined in less -->
+                    <span>Serving People </span>
+                    <span>and </span>
+                    <span>Businesses Since 1971</span>
+                </div>
+                <div class="banner-right hidden-sm">                    <!-- col's defined in less -->
+                    <div class="chat">
+                        <a id="LivechatButtonx" href="https://chat.livechatinc.net/licence/1032405/open_chat.cgi?lang=en&amp;groups=0" target="chat_1032405_chat.livechatinc.net" onclick="window.open('https://chat.livechatinc.net/licence/1032405/open_chat.cgi?lang=en&amp;groups=0&amp;'+'dc='+escape(document.cookie+';l='+document.location+';r='+document.referer+';s='+typeof lc_session),'Czat_1032405','width=530,height=520,resizable=yes,scrollbars=no,status=1');return false;"><img src="https://chat.livechatinc.net/licence/1032405/button.cgi?lang=en&amp;groups=0&amp;d=1475094635553" style="border: 0px;"></a>
+                    </div>
+                    <div class="spanish-message">
+                        <span>"Se Habla Espa&ntilde;ol"</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--END BLUE BANNER AT TOP-->
+
+<!--START NAVIGATION WRAPPER-->
+<div class="navbar navbar-static-top" role="navigation" id="topnavbar">
+    <div class="container-fluid wrapper-subnav">
+        <div class="row subnavall">
+            <div class="subnav-elements">                               <!-- col's defined in less -->
+                <div class="logo">
+                    <a class="home" href="/">
+                    	<img class="img-responsive" src="/skins/skin_20/dist/images/logo-sm.png">
+                    </a>
+                </div>
+                <div class="subnav-left">
+                    <div class="domain-wrapper">
+                        <a href="/">
+                            <span class="domain-1">Keyed</span>
+                            <span class="domain-2">
+                                <span class="different">Different.com</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="logo-vendors hidden-xs hidden-sm hidden-md">
+                            <a href="https://www.keyeddifferent.com/manufacturer/1/master-lock">
+                        	    <img src="/skins/skin_20/dist/images/logo-masterlock.png" />
+                            </a>
+                            <a href="https://www.keyeddifferent.com/manufacturer/2/american-lock">
+                        	    <img src="/skins/skin_20/dist/images/logo-american-lock.png" />
+                            </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-wrapper">                      <!-- col's defined in less -->
+                <div class="search">
+                 	@Html.Partial("_Search")
+                </div>
+            </div>
+            <div class="subnav-wrapper hidden-xs hidden-sm">            <!-- col's defined in less -->
+                <div class="sub-nav">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="@Url.Action("Index", "Account")">
+                            @Html.StringResource("responsiveskin.accountlabel")
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Html.Token("SIGNINOUT_LINK")">
+                            @Html.Token("SIGNINOUT_TEXT")</a>
+                        </li>
+                        <li>
+                            <a href="/shoppingcart.aspx">
+                                <span class="glyphicon glyphicon-shopping-cart"></span>
+                                @Html.StringResource("responsiveskin.cartcountlabel")
+                                ( @Html.Token("NUM_CART_ITEMS") )
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--START MAIN NAV-->
+        <nav class="navbar navbar-default main-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <span class="navbar-brand hidden-sm hidden-md hidden-lg">
+                            <a href="tel:1-800-778-2217">1-800-778-2217</a>
+                        </span>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="@Url.BuildEntityLink("Category", 2, "Laminated Steel Padlocks")">Laminated Steel</a></li>
+                            <li><a href="@Url.BuildEntityLink("Category", 8, "Laminated Brass Padlocks")">Laminated Brass</a></li>
+                            <li><a href="@Url.BuildEntityLink("Category", 14, "Solid Brass Padlocks")">Solid Brass</a></li>
+                            <li><a href="@Url.BuildEntityLink("Category", 15, "Solid Steel Padlocks")">Solid Steel</a></li>
+                            <li><a href="@Url.BuildEntityLink("Category", 4, "Solid Aluminum Padlocks")">Solid Aluminum</a></li>
+                            <li><a href="@Url.BuildEntityLink("Category",9, "Weather Resistant Padlocks")">Weather Resistant</a></li>
+                            <li><a href="@Url.BuildEntityLink("Category",10, "Warded Padlocks")">Warded Padlocks</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right hidden-sm hidden-md hidden-lg">
+                            <li>
+                                <a href="@Url.Action("Index", "Account")">@Html.StringResource("responsiveskin.accountlabel")
+                                    <span class="glyphicon glyphicon-log-in"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Html.Token("SIGNINOUT_LINK")">@Html.Token("SIGNINOUT_TEXT")
+                                    <span class="glyphicon glyphicon-list-alt"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shoppingcart.aspx">
+                                    <span class="glyphicon glyphicon-shopping-cart">
+                                    </span>
+                                    @Html.StringResource("responsiveskin.cartcountlabel")
+                                    ( @Html.Token("NUM_CART_ITEMS") items)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--END MAIN NAV-->
+    </div>
+</div>
+<!--END NAVIGATION WRAPPER-->
+<div class="notices">
+    @Html.Action(ActionNames.Index, ControllerNames.Notice)
+</div>
+<div class="container">
+    @RenderBody()
+</div>
+<!--FOOTER-->
+<div class="container-fluid container-footer">
+    <div class="row row-footer">
+        <div class="info-wrapper">
+
+            <!--START FIRST FOOTER BOX-->
+            <div class="info-footer footer1">
+
+                <div class="padlock-pros">
+                    <a href="/">
+                        <img class="logo img-responsive" src="/skins/skin_20/dist/images/logo-padlock-pros.png" />
+                    </a>
+                    <div class="logo-link-text"><a href="/">KeyedDifferent.com</a></div>
+                    
+                </div>
+                <div class="contact">
+                    <h1>1-800-778-2217</h1>
+                    <span>Corporate Headquarters:</span><br>
+                    <span>9316 Wheatlands Rd.#C, Santee, CA 92071</span>
+                </div>
+                <div class="logo-affiliates">
+                    <img class="better-business" src="/images/assets/BBB.png" width="125px"/>
+                    <a href="/topic/secure">
+                        <img class="secure" src="/images/assets/HPI_Secure.png" width="125px" />
+                    </a>
+                    <img class="credit-cards" src="/images/assets/CreditCards.png" width="175px"/>
+                    <img class="paypal" src="/images/assets/Paypal.jpg" width="75px"/>
+                </div>
+                <div class="copy">
+                    <p>Copyright © 1997-2017 - Hodge Products, Inc.</p><span>All rights reserved.</span>
+                    <p>Serving people and businesses since 1971</p>
+                </div>
+                <!--                <div class="sub-footer">
+                                    @Html.Topic("Template.SubFooter")
+
+                                </div>-->
+            </div>
+            <!--END FIRST FOOTER BOX-->
+
+            <!--START SECOND FOOTER BOX-->
+            <div class="info-footer footer2">
+                <div class="content-left">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="@Url.Action("Index", "Account")#OrderHistory">Order History</a></li>
+                        <li><a href="@Url.BuildTopicLink("Shipping")">Shipping Information</a></li>
+                        <li><a href="@Url.BuildTopicLink("Returns")">Return Policy</a></li>
+                        <li><a href="@Url.Action("Index", "ContactUs")">Feedback</a></li>
+                        <li><a href="@Url.Action("Index", "Sitemap")">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="content-right">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="@Url.BuildTopicLink("about")">About Us</a></li>
+                        <li><a href="@Url.Action("Index", "ContactUs")">Contact Us</a></li>
+                        <li><a href="@Url.BuildTopicLink("Privacy")">Privacy Policy</a></li>
+                        <li><a href="@Url.BuildTopicLink("termsandconditions")">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="social">
+                    <div class="content-left">
+                        <h3>Connect With Us</h3>
+                        <ul>
+                            <a href="http://www.facebook.com/thelockpeople" target="_blank"><li class="fa fa-facebook"></li></a>
+                            <a href="http://www.twitter.com/thelockpeople" target="_blank"><li class="fa fa-twitter"></li></a>
+                            <!--<a href="https://www.linkedin.com/company-beta/2983270/?pathWildcard=2983270" target="_blank"><li class="fa fa-linkedin"></li></a>-->
+                            <a href="http://www.instagram.com/thelockpeople" target="_blank"><li class="fa fa-instagram"></li></a>
+                            <a href="https://www.youtube.com/thelockpeople" target="_blank"><li class="fa fa-youtube"></li></a>
+                        </ul>
+                    </div>
+                    <div class="content-right">
+                        <ul>
+                            <li><a id="LivechatButtonx" href="https://chat.livechatinc.net/licence/1032405/open_chat.cgi?lang=en&amp;groups=0" target="chat_1032405_chat.livechatinc.net" onclick="window.open('https://chat.livechatinc.net/licence/1032405/open_chat.cgi?lang=en&amp;groups=0&amp;'+'dc='+escape(document.cookie+';l='+document.location+';r='+document.referer+';s='+typeof lc_session),'Czat_1032405','width=530,height=520,resizable=yes,scrollbars=no,status=1');return false;"><img src="https://chat.livechatinc.net/licence/1032405/button.cgi?lang=en&amp;groups=0&amp;d=1475094635553" style="border: 0px;"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!--END SECOND FOOTER BOX-->
+
+            <!--START THIRD FOOTER BOX-->
+            <div class="info-footer footer3">
+
+                <h4>Request a Quote</h4>
+
+                <form action="/contactus" method="post" novalidate="novalidate">
+                    <div class="form contact-form">
+                        <div class="form-group-full form-group has-feedback">
+                            <div class="entry-feedback-wrapper">
+                                <input autocomplete="name"
+                                       class="form-control text-box single-line"
+                                       data-val="true" data-val-required="Your first and last name are required."
+                                       id="From" name="From" placeholder="Full Name" required="required" type="text" value="" aria-required="true">
+                                <i class="fa form-control-feedback"></i>
+                            </div>
+                            <span class="field-validation-valid form-validation-message" data-valmsg-for="From" data-valmsg-replace="true"></span>
+                        </div>
+
+                        <div class="form-group-full form-group has-feedback">
+                            <div class="entry-feedback-wrapper">
+                                <input autocomplete="tel"
+                                       class="form-control text-box single-line"
+                                       data-val="true" data-val-required="Your phone number is required."
+                                       id="Phone" name="Phone" placeholder="Phone Number" required="required" type="tel" value="" aria-required="true">
+                                <i class="fa form-control-feedback"></i>
+                            </div>
+                            <span class="field-validation-valid form-validation-message" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group-full form-group has-feedback">
+                        <div class="entry-feedback-wrapper">
+                            <input autocomplete="email"
+                                   class="form-control text-box single-line"
+                                   data-val="true" data-val-regex="ContactUs.EmailAddress.Format" data-val-regex-pattern="^.+@@.+\..+$" data-val-required="Your email address is required."
+                                   id="Email" name="Email" placeholder="Email Address" required="required" type="email" value="" aria-required="true">
+                            <i class="fa form-control-feedback"></i>
+                        </div>
+                        <span class="field-validation-valid form-validation-message" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                    </div>
+
+                    <div class="form-group-full form-group has-feedback">
+                        <div class="entry-feedback-wrapper">
+                            <input class="form-control text-box single-line"
+                                   data-val="true" data-val-required="Email subject is required."
+                                   id="Subject" name="Subject" placeholder="Subject" required="required" type="hidden" value="KeyedDifferent.com - Quote Request" aria-required="true">
+                            <i class="fa form-control-feedback"></i>
+                        </div>
+                        <span class="field-validation-valid form-validation-message" data-valmsg-for="Subject" data-valmsg-replace="true"></span>
+                    </div>
+
+                    <div class="form-group-full form-group has-feedback">
+                        <div class="entry-feedback-wrapper">
+                                <textarea class="form-control text-box multi-line"
+                                          data-val="true" data-val-required="Message is required." id="Message" name="Message"
+                                          placeholder="What can we help you with?" required="required" aria-required="true"></textarea>
+                            <i class="fa form-control-feedback"></i>
+                        </div>
+                        <span class="field-validation-valid form-validation-message" data-valmsg-for="Message" data-valmsg-replace="true"></span>
+                    </div>
+
+                    <div class="form-group-captcha form-group-full form-group has-feedback">
+                        <div class="input-group entry-feedback-wrapper">
+                            <input class="form-control text-box single-line"
+                                   data-val="true" data-val-required="Captcha is required." id="CaptchaCode" name="CaptchaCode"
+                                   required="required" type="text" value="" aria-required="true">
+                            <span class="input-group-addon input-group-addon-captchaimage">
+                                <img src="/captcha?scope=ContactUsIndex"></span>
+                        </div>
+                        <span class="field-validation-valid form-validation-message" data-valmsg-for="CaptchaCode" data-valmsg-replace="true"></span>
+                    </div>
+
+                    <div class="page-action-bar contact-us-actions">
+                        <input type="submit" class="btn btn-primary submit-contact-button" value="Submit">
+                    </div>
+                </form>
+
+            </div>
+            <!--END THIRD FOOTER BOX-->
+
+        </div>
+    </div>
+</div>
+<!-- End Footer -->
+@Html.Partial("_BodyClose")
+</body>
+</html>

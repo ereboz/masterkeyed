@@ -1,0 +1,2 @@
+Microsoft.VisualStudio.Web.Host.exe Information: 0 : DotNetOpenAuth.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246 (official)
+Microsoft.VisualStudio.Web.Host.exe Information: 0 : Reporting will use isolated storage with scope: User, Domain, Assembly
