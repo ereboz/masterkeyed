@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="32x32" href="dist/images/favicon.png">
+    <title>KeyedDifferent.com</title>
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Font Awesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
+
+    <!-- Custom font build by javaBoxer @ https://fonts.google.com/ -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|Poiret+One|Quicksand:400,500,700|Molengo|Mukta+Vaani|Prompt|Nunito+Sans" rel="stylesheet">
+<!--
+
+font-family: 'Mukta Vaani', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Molengo', sans-serif; (paragraph)
+font-family: 'Nunito Sans', sans-serif; (paragraph)
+font-family: 'Roboto', sans-serif;
+
+-->
+
+    <!--Product Slider-->
+    <!--<link rel="stylesheet" type="text/css" href="dist/font-awesome/css/font-awesome.min.css"/>-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+  <script src="docs/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="docs/assets/js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!--Created by javaBoxer on 3/23/2017.-->
+<body>
+<!--START BLUE BANNER AT TOP-->
+<div class="bg-banner">
+    <div class="container" id="banner">
+        <div class="wrapper-banner">
+            <div class="row">
+                <div class="banner-phone">                              <!-- col's defined in less -->
+                    <span class="glyphicon glyphicon-phone-alt phone-icon"></span>
+                    <span class="banner-phone-text">
+                        <span class="phone-text">Call Us</span>
+                        <span class="phone-number">1.800.778.2217</span>
+                    </span>
+                </div>
+                <div class="banner-message">                            <!-- col's defined in less -->
+                    <span>Serving People </span>
+                    <span>and </span>
+                    <span>Businesses Since 1971</span>
+                </div>
+                <div class="banner-right hidden-sm">                    <!-- col's defined in less -->
+                    <div class="chat">
+                        <a id="LivechatButtonx" href="https://chat.livechatinc.net/licence/1032405/open_chat.cgi?lang=en&amp;groups=0" target="chat_1032405_chat.livechatinc.net" onclick="window.open('https://chat.livechatinc.net/licence/1032405/open_chat.cgi?lang=en&amp;groups=0&amp;'+'dc='+escape(document.cookie+';l='+document.location+';r='+document.referer+';s='+typeof lc_session),'Czat_1032405','width=530,height=520,resizable=yes,scrollbars=no,status=1');return false;"><img src="https://chat.livechatinc.net/licence/1032405/button.cgi?lang=en&amp;groups=0&amp;d=1475094635553" style="border: 0px;"></a>
+                    </div>
+                    <div class="spanish-message">
+                        <span>"Se Habla Espa&ntilde;ol"</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--END BLUE BANNER AT TOP-->
+
+<!--START NAVIGATION WRAPPER-->
+<div class="navbar navbar-static-top" role="navigation" id="topnavbar">
+    <div class="container-fluid wrapper-subnav">
+        <div class="row subnavall">
+            <div class="subnav-elements">                               <!-- col's defined in less -->
+                <div class="logo">
+                    <a class="home" href="/">
+                        <img class="img-responsive" src="dist/images/logo-sm.png">
+                    </a>
+                </div>
+                <div class="subnav-left">
+                    <div class="domain-wrapper">
+                        <a href="/">
+                            <span class="domain-1">Keyed</span>
+                            <span class="domain-2">
+                                <span class="different">Different.com</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="logo-vendors hidden-xs hidden-sm hidden-md">
+                            <a href="https://www.keyeddifferent.com/manufacturer/1/master-lock">
+                        	<img src="dist/images/logo-masterlock.png" />
+                            </a>
+                            <a href="https://www.keyeddifferent.com/manufacturer/2/american-lock">
+                        	<img src="dist/images/logo-american-lock.png" />
+                            </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-wrapper">                                <!-- col's defined in less -->
+                <div class="search">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search Entire Store Here...">
+                            <div class="input-group-btn">
+                              <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="subnav-wrapper hidden-xs hidden-sm">            <!-- col's defined in less -->
+                <div class="sub-nav">
+                    <ul class="nav navbar-nav">
+                        <li>| Log In ...</li>
+                        <li>| Sign Up... | </li>
+                        <li> Cart |</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--START MAIN NAV-->
+        <nav class="navbar navbar-default main-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <span class="navbar-brand hidden-sm hidden-md hidden-lg">
+                            <a href="tel:1-800-778-2217">1-800-778-2217</a>
+                        </span>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Laminated Steel</a></li>
+                            <li><a href="#">Laminated Brass</a></li>
+                            <li><a href="#">Solid Brass</a></li>
+                            <li><a href="#">Solid Steel</a></li>
+                            <li><a href="#">Solid Aluminum</a></li>
+                            <li><a href="#">Weather Resistant</a></li>
+                            <li><a href="#">Warded Padlocks</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right hidden-sm hidden-md hidden-lg">
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Sign Up</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--END MAIN NAV-->
+    </div>
+</div>
+<!--END NAVIGATION WRAPPER-->
+
+
+<!-- *********** START MAIN FOR HOMETOPINTRO *********** -->
+
+<!-- START CAROUSEL -->
+<div class="container">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"> </li>
+            <li data-target="#myCarousel" data-slide-to="1"> </li>
+            <li data-target="#myCarousel" data-slide-to="2"> </li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item slide1 active">
+                <a href="/category/4/solid-aluminum-padlocks">
+                    <img alt="" class="img-responsive" src="dist/images/1361.png" />
+                    <div class="carousel-caption">
+                        <h1>Solid Body Aluminum</h1>
+                        <p>Model No. A1105</p>
+                        <p>Blue Anodized Aluminum Padlock</p>
+                        <p>Corosion resistant finish</p>
+                        <p>Ideal for tough environments</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item slide2">
+                <a href="/category/14/solid-brass-padlocks">
+                    <img alt="" class="img-responsive" src="dist/images/293.png" />
+                    <div class="carousel-caption">
+                        <h1>Solid Brass Padlocks</h1>
+                        <p>Model No. 4120</p>
+                        <p>Economy Padlock</p>
+                        <p>Wide brass body resists the elements</p>
+                        <p>Ideal for cabinets and fences</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item slide3">
+                <a href="/category/9/weather-resistant-padlocks">
+                    <img alt="" class="img-responsive" src="dist/images/563.png" />
+                    <div class="carousel-caption">
+                        <h1>ProSeries Shrouded Shackle Padlock</h1>
+                        <p>Model No. 6321</p>
+                        <p>High Security</p>
+                        <p>Dual Ball Locking Mechanism</p>
+                        <p>Ideal for Transportation and Industrial use</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<!-- END CAROUSEL -->
+
+<!--START FIRST PRODUCT SLIDER - BEST SELLERS -->
+<div class="container product-slider-wrapper">
+    <div class="row">
+        <div class="row product-slider-head">
+            <div class="product-slider-title">                          <!-- col's defined in less -->
+                <h3>Best Sellers</h3>
+            </div>
+            <div class="product-slider-chevrons">                       <!-- col's defined in less -->
+                <!-- Controls -->
+                <div class="controls pull-right hidden-xs">
+                    <a class="left fa fa-chevron-left btn btn" href="#carousel-example1" data-slide="prev"></a>
+                    <a class="right fa fa-chevron-right btn" href="#carousel-example1" data-slide="next"></a>
+                </div>
+            </div>
+        </div>
+        <div class="page-separator"></div>
+        <div id="carousel-example1" class="carousel slide" data-interval="false" data-ride="carousel1">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner best-sellers">                   <!-- col's defined in less -->
+                <div class="item active">
+                    <div class="row">
+                        <!--1st Best Seller in carousel -->
+                        <div class="element">                           <!-- col's defined in less -->
+                            <div class="product-wrapper">
+                                <div class="product-image-wrapper">
+                                    <div class="product-image-bg">
+                                        <img alt="" src="dist/images/sale.png" class="product-sale" />
+                                        <a href="http://keyeddifferent.com/product/176/3-laminated-steel-padlocks">
+                                            <img src="dist/images/3-best-seller.png" class="product-image img-responsive" alt="a" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product-desc-wrapper">
+                                    <div class="product-desc">3 Laminated Steel Padlock</div>
+                                </div>
+                                <div class="info">
+                                    <div class="product-footer-wrapper">
+                                        <div class="prices">
+                                            <span class="sale-price">$6.97</span><br />
+                                            <span class="retail-price">$11.31</span>
+                                        </div>
+                                        <div class="details">
+                                            <a class="view-details" href="http://keyeddifferent.com/product/176/3-laminated-steel-padlocks">View
+                                                Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--2nd Best Seller in carousel -->
+                        <div class="element">                           <!-- col's defined in less -->
+                            <div class="product-wrapper">
+                                <div class="product-image-wrapper">
+                                    <div class="product-image-bg">
+                                        <img alt="" src="dist/images/sale.png" class="product-sale" />
+                                        <a href="http://keyeddifferent.com/product/643/a1105-solid-aluminum-padlocks">
+                                            <img src="dist/images/a1105.png" class="product-image img-responsive" alt="a" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product-desc-wrapper">
+                                    <div class="product-desc">Aluminum Safety Lockout</div>
+                                </div>
+                                <div class="info">
+                                    <div class="product-footer-wrapper">
+                                        <div class="prices">
+                                            <span class="sale-price">$9.28</span><br />
+                                            <span class="retail-price">$15.50</span>
+                                        </div>
+                                        <div class="details">
+                                            <a class="view-details" href="http://keyeddifferent.com/product/643/a1105-solid-aluminum-padlocks">View Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--3rd Best Seller in carousel -->
+                        <div class="element">                           <!-- col's defined in less -->
+                            <div class="product-wrapper">
+                                <div class="product-image-wrapper">
+                                    <div class="product-image-bg">
+                                        <img alt="" src="dist/images/sale.png" class="product-sale" />
+                                        <a href="http://keyeddifferent.com/product/293/4120-solid-brass-padlocks">
+                                            <img src="dist/images/4120.png" class="product-image img-responsive" alt="a" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product-desc-wrapper">
+                                    <div class="product-desc">4120 Solid Brass Padlock</div>
+                                </div>
+                                <div class="info">
+                                    <div class="product-footer-wrapper">
+                                        <div class="prices">
+                                            <span class="sale-price">$2.07</span><br />
+                                            <span class="retail-price">$2.85</span>
+                                        </div>
+                                        <div class="details">
+                                            <a class="view-details" href="http://keyeddifferent.com/product/293/4120-solid-brass-padlocks">View Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--4th Best Seller in carousel -->
+                        <div class="element">                           <!-- col's defined in less -->
+                            <div class="product-wrapper">
+                                <div class="product-image-wrapper">
+                                    <div class="product-image-bg">
+                                        <img alt="" src="dist/images/sale.png" class="product-sale" />
+                                        <a href="http://keyeddifferent.com/product/563/6321-shrouded-shackle-padlocks">
+                                            <img src="dist/images/6121.png" class="product-image img-responsive" alt="a" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product-desc-wrapper">
+                                    <div class="product-desc">6321 Pro Series</div>
+                                </div>
+                                <div class="info">
+                                    <div class="product-footer-wrapper">
+                                        <div class="prices">
+                                            <span class="sale-price">$23.86</span><br />
+                                            <span class="retail-price">$32.74</span>
+                                        </div>
+                                        <div class="details">
+                                            <a class="view-details" href="http://keyeddifferent.com/product/563/6321-shrouded-shackle-padlocks">View Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <!--5th Best Seller in carousel -->
+                        <div class="element">                           <!-- col's defined in less -->
+                            <div class="product-wrapper">
+                                <div class="product-image-wrapper">
+                                    <div class="product-image-bg">
+                                        <img alt="" src="dist/images/sale.png" class="product-sale" />
+                                        <a href="http://keyeddifferent.com/product/2552/5lj-Keyed-Different-Laminated-Steel-Padlocks">
+                                            <img src="dist/images/5lj-best-seller.png" class="product-image img-responsive" alt="a" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product-desc-wrapper">
+                                    <div class="product-desc">5LJ Laminated Steel Padlock</div>
+                                </div>
+                                <div class="info">
+                                    <div class="product-footer-wrapper">
+                                        <div class="prices">
+                                            <span class="sale-price">$10.85</span><br />
+                                            <span class="retail-price">$18.13</span>
+                                        </div>
+                                        <div class="details">
+                                            <a class="view-details" href="http://keyeddifferent.com/product/2552/5lj-Keyed-Different-Laminated-Steel-Padlocks">View Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 6th Best Seller in carousel -->
+                        <div class="element">                           <!-- col's defined in less -->
+                            <div class="product-wrapper">
+                                <div class="product-image-wrapper">
+                                    <div class="product-image-bg">
+                                        <img alt="" src="dist/images/sale.png" class="product-sale" />
+                                        <a href="http://keyeddifferent.com/product/2524/25lf-Keyed-Different-Laminated-Steel-Padlocks">
+                                            <img src="dist/images/5lf-best-seller.png" class="product-image img-responsive" alt="a" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product-desc-wrapper">
+                                    <div class="product-desc">5LF Laminated Steel Padlock</div>
+                                </div>
+                                <div class="info">
+                                    <div class="product-footer-wrapper">
+                                        <div class="prices">
+                                            <span class="sale-price">$10.37</span><br />
+                                            <span class="retail-price">$17.73</span>
+                                        </div>
+                                        <div class="details">
+                                            <a class="view-details" href="http://keyeddifferent.com/product/2524/25lf-Keyed-Different-Laminated-Steel-Padlocks">View Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--carousel-inner-->
+        </div>
+    </div>
+</div>
+<!--END FIRST PRODUCT SLIDER - BEST SELLERS -->
+
+
+<!-- START POPULAR MODELS (4 PRODUCTS, 2 ROWS) -->
+<div class="container">
+    <div class="row">
+        <div class="prod-plp">                                                  <!-- col's defined in less -->
+            <div class="popular-models-head">
+                <h3>Popular Models</h3>
+            </div>
+            <div class="page-separator"></div>
+        </div>
+    </div>
+</div>
+
+<!--- Popular Models 1st Row -->
+<div class="container popular-items">
+    <div class="row">
+
+        <!--Start 1st Popular Model-->
+        <!--<editor-fold desc="Popular Model">-->
+        <div class="item-wrapper">                                              <!-- col's defined in less -->
+            <div class="item">
+                <div class="item-image-wrapper">
+                    <div class="item-title">
+                        <div class="construction-type">Laminated Steel</div>
+                        <div class="item-width">1-1/8in (29mm) Body Width</div>
+                    </div>
+                    <!--region Individual Images-->
+                    <div class="item-images">
+                        <a href="http://keyeddifferent.com/product/2555/7-laminated-steel-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/7.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2558/7lf-laminated-steel-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/7lf.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2561/7lj-laminated-steel-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/7lj.png" alt="" />
+                        </a>
+                    </div>
+                    <!--endregion-->
+                </div>
+                <div class="item-desc-wrapper">
+                    <div class="item-models">
+                        <a href="http://keyeddifferent.com/product/2555/7-laminated-steel-padlocks">7</a> -
+                        <a href="http://keyeddifferent.com/product/2558/7lf-laminated-steel-padlocks">7LF</a> -
+                        <a href="http://keyeddifferent.com/product/2561/7lj-laminated-steel-padlocks">7LJ</a>
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-price">
+                            <div class="price-hpi">
+                                <span>$5.59</span>
+                                <span>$6.63</span>
+                                <span>$6.87</span>
+                            </div>
+                            <div class="price-msrp">
+                                <div class="msrp">--------- MSRP ---------</div>
+                                <div class="price">
+                                    <span>$9.21</span>
+                                    <span>$10.91</span>
+                                    <span>$11.31</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-view-details">
+                            <a class="view-details" href="http://keyeddifferent.com/product/2555/7-laminated-steel-padlocks">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--</editor-fold>-->
+        <!--End 1st Popular Model-->
+
+        <!--Start 2nd Popular Model-->
+        <!--<editor-fold desc="Popular Model">-->
+        <div class="item-wrapper">                                              <!-- col's defined in less -->
+            <div class="item">
+                <div class="item-image-wrapper">
+                    <div class="item-title">
+                        <div class="construction-type">Laminated Brass</div>
+                        <div class="item-width">1-1/8in (29mm) Body Width</div>
+                    </div>
+                    <!--region Individual Images-->
+                    <div class="item-images">
+                        <a href="http://keyeddifferent.com/product/2611/8-laminated-brass-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/8.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2622/8lf-laminated-brass-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/8lf.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2624/8lj-laminated-brass-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/8lj.png" alt="" />
+                        </a>
+                    </div>
+                    <!--endregion-->
+                </div>
+                <div class="item-desc-wrapper">
+                    <div class="item-models">
+                        <a href="http://keyeddifferent.com/product/2611/8-laminated-brass-padlocks">8</a> -
+                        <a href="http://keyeddifferent.com/product/2622/8lf-laminated-brass-padlocks">8LF</a> -
+                        <a href="http://keyeddifferent.com/product/2624/8lj-laminated-brass-padlocks">8LJ</a>
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-price">
+                            <div class="price-hpi">
+                                <span>$8.59</span>
+                                <span>$9.75</span>
+                                <span>$10.04</span>
+                            </div>
+                            <div class="price-msrp">
+                                <div class="msrp">--------- MSRP ---------</div>
+                                <div class="price">
+                                    <span>$11.77</span>
+                                    <span>$13.37</span>
+                                    <span>$13.77</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-view-details">
+                            <a class="view-details" href="http://keyeddifferent.com/product/2611/8-laminated-brass-padlocks">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--</editor-fold>-->
+        <!--End 2nd Popular Model-->
+
+        <!--Start 3rd Popular Model-->
+        <!--<editor-fold desc="Popular Model">-->
+        <div class="item-wrapper">                                              <!-- col's defined in less -->
+            <div class="item">
+                <div class="item-image-wrapper">
+                    <div class="item-title">
+                        <div class="construction-type">Laminated Steel</div>
+                        <div class="item-width">1-9/16in (40mm) Body Width</div>
+                    </div>
+                    <!--region Individual Images-->
+                    <div class="item-images">
+                        <a href="http://keyeddifferent.com/product/2533/3-laminated-steel-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/3.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2543/3lf-laminated-steel-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/3lf.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2546/3lh-laminated-steel-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/3lh.png" alt="" />
+                        </a>
+                    </div>
+                    <!--endregion-->
+                </div>
+                <div class="item-desc-wrapper">
+                    <div class="item-models">
+                        <a href="http://keyeddifferent.com/product/2533/3-laminated-steel-padlocks">3</a> -
+                        <a href="http://keyeddifferent.com/product/2543/3lf-laminated-steel-padlocks">3LF</a> -
+                        <a href="http://keyeddifferent.com/product/2546/3lh-laminated-steel-padlocks">3LH</a>
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-price">
+                            <div class="price-hpi">
+                                <span>$6.97</span>
+                                <span>$8.00</span>
+                                <span>$8.73</span>
+                            </div>
+                            <div class="price-msrp">
+                                <div class="msrp">--------- MSRP ---------</div>
+                                <div class="price">
+                                    <span>$11.31</span>
+                                    <span>$13.01</span>
+                                    <span>$14.21</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-view-details">
+                            <a class="view-details" href="http://keyeddifferent.com/product/2533/3-laminated-steel-padlocks">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--</editor-fold>-->
+        <!--End 3rd Popular Model-->
+
+        <!--Start 4th Popular Model-->
+        <!--<editor-fold desc="Popular Model">-->
+        <div class="item-wrapper">                                              <!-- col's defined in less -->
+            <div class="item">
+                <div class="item-image-wrapper">
+                    <div class="item-title">
+                        <div class="construction-type">Laminated Brass</div>
+                        <div class="item-width">1-9/16in (40mm) Body Width</div>
+                    </div>
+                    <!--region Individual Images-->
+                    <div class="item-images">
+                        <a href="http://keyeddifferent.com/product/2590/4-laminated-brass-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/4.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2593/4lf-laminated-brass-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/4lf.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2595/4lh-laminated-brass-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/4lh.png" alt="" />
+                        </a>
+                    </div>
+                    <!--endregion-->
+                </div>
+                <div class="item-desc-wrapper">
+                    <div class="item-models">
+                        <a href="http://keyeddifferent.com/product/2590/4-laminated-brass-padlocks">4</a> -
+                        <a href="http://keyeddifferent.com/product/2593/4lf-laminated-brass-padlocks">4LF</a> -
+                        <a href="http://keyeddifferent.com/product/2595/4lh-laminated-brass-padlocks">4LH</a>
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-price">
+                            <div class="price-hpi">
+                                <span>$10.45</span>
+                                <span>$11.62</span>
+                                <span>$12.46</span>
+                            </div>
+                            <div class="price-msrp">
+                                <div class="msrp">--------- MSRP ---------</div>
+                                <div class="price">
+                                    <span>$14.34</span>
+                                    <span>$15.94</span>
+                                    <span>$17.09</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-view-details">
+                            <a class="view-details" href="http://keyeddifferent.com/product/2590/4-laminated-brass-padlocks">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--</editor-fold>-->
+        <!--End 4th Popular Model-->
+    </div>
+</div>
+<!--- End Popular Models 1st Row -->
+
+<!--- Popular Models 2nd Row -->
+<div class="container popular-items last">
+    <div class="row">
+
+        <!--Start 1st Popular Model-->
+        <!--<editor-fold desc="Popular Model">-->
+        <div class="item-wrapper">                                              <!-- col's defined in less -->
+            <div class="item">
+                <div class="item-image-wrapper">
+                    <div class="item-title">
+                        <div class="construction-type">Laminated Steel</div>
+                        <div class="item-width">1-3/4in (44mm) Body Width</div>
+                    </div>
+                    <!--region Individual Images-->
+                    <div class="item-images">
+                        <a href="http://keyeddifferent.com/product/2482/1-laminated-steel-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/1.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2484/1lf-laminated-steel-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/1lf.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2486/1lj-laminated-steel-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/1lj.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2489/1ln-laminated-steel-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/1ln.png" alt="" />
+                        </a>
+                    </div>
+                    <!--endregion-->
+                </div>
+                <div class="item-desc-wrapper">
+                    <div class="item-models">
+                        <a href="http://keyeddifferent.com/product/2482/1-laminated-steel-padlocks">1</a> -
+                        <a href="http://keyeddifferent.com/product/2484/1lf-laminated-steel-padlocks">1LF</a> -
+                        <a href="http://keyeddifferent.com/product/2486/1lj-laminated-steel-padlocks">1LJ</a> -
+                        <a href="http://keyeddifferent.com/product/2489/1ln-laminated-steel-padlocks">1LN</a>
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-price">
+                            <div class="price-hpi">
+                                <span>$7.69</span>
+                                <span>$8.70</span>
+                                <span>$8.94</span>
+                                <span>$11.28</span>
+                            </div>
+                            <div class="price-msrp">
+                                <div class="msrp">--------- MSRP ---------</div>
+                                <div class="price">
+                                    <span>$12.84</span>
+                                    <span>$14.54</span>
+                                    <span>$14.94</span>
+                                    <span>$18.84</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-view-details">
+                            <a class="view-details" href="http://keyeddifferent.com/product/2482/1-laminated-steel-padlocks">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--</editor-fold>-->
+        <!--End 1st Popular Model-->
+
+        <!--Start 2nd Popular Model-->
+        <!--<editor-fold desc="Popular Model">-->
+        <div class="item-wrapper">                                              <!-- col's defined in less -->
+            <div class="item">
+                <div class="item-image-wrapper">
+                    <div class="item-title">
+                        <div class="construction-type">Laminated Brass</div>
+                        <div class="item-width">1-3/4in (44mm) Body Width</div>
+                    </div>
+                    <!--region Individual Images-->
+                    <div class="item-images">
+                        <a href="http://keyeddifferent.com/product/2571/2-laminated-brass-padlock">
+                            <img class="item-image img-responsive" src="dist/images/2.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2585/2lf-laminated-brass-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/2lf.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2588/2lj-laminated-brass-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/2lj.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/3090/2ln-laminated-brass-padlock">
+                            <img class="item-image img-responsive" src="dist/images/2ln.png" alt="" />
+                        </a>
+                    </div>
+                    <!--endregion-->
+                </div>
+                <div class="item-desc-wrapper">
+                    <div class="item-models">
+                        <a href="http://keyeddifferent.com/product/2571/2-laminated-brass-padlock">2</a> -
+                        <a href="http://keyeddifferent.com/product/2585/2lf-laminated-brass-padlocks">2LF</a> -
+                        <a href="http://keyeddifferent.com/product/2588/2lj-laminated-brass-padlocks">2LJ</a> -
+                        <a href="http://keyeddifferent.com/product/3090/2ln-laminated-brass-padlock">2LN</a>
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-price">
+                            <div class="price-hpi">
+                                <span>$10.29</span>
+                                <span>$13.28</span>
+                                <span>$13.58</span>
+                                <span>$13.89</span>
+                            </div>
+                            <div class="price-msrp">
+                                <div class="msrp">--------- MSRP ---------</div>
+                                <div class="price">
+                                    <span>$17.19</span>
+                                    <span>$18.22</span>
+                                    <span>$18.62</span>
+                                    <span>$23.19</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-view-details">
+                            <a class="view-details" href="http://keyeddifferent.com/product/2571/2-laminated-brass-padlock">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--</editor-fold>-->
+        <!--End 2nd Popular Model-->
+
+        <!--Start 3rd Popular Model-->
+        <!--<editor-fold desc="Popular Model">-->
+        <div class="item-wrapper">                                              <!-- col's defined in less -->
+            <div class="item">
+                <div class="item-image-wrapper">
+                    <div class="item-title">
+                        <div class="construction-type">Laminated Steel</div>
+                        <div class="item-width">2in (51mm) Body Width</div>
+                    </div>
+                    <!--region Individual Images-->
+                    <div class="item-images">
+                        <a href="http://keyeddifferent.com/product/2548/5-laminated-steel-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/5.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2041/5lf-laminated-steel-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/5lf.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2553/5lj-laminated-steel-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/5lj.png" alt="" />
+                        </a>
+                    </div>
+                    <!--endregion-->
+                </div>
+                <div class="item-desc-wrapper">
+                    <div class="item-models">
+                        <a href="http://keyeddifferent.com/product/2548/5-laminated-steel-padlocks">5</a> -
+                        <a href="http://keyeddifferent.com/product/2041/5lf-laminated-steel-padlocks">5LF</a> -
+                        <a href="http://keyeddifferent.com/product/2553/5lj-laminated-steel-padlocks">5LJ</a>
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-price">
+                            <div class="price-hpi">
+                                <span>$9.59</span>
+                                <span>$10.37</span>
+                                <span>$10.85</span>
+                            </div>
+                            <div class="price-msrp">
+                                <div class="msrp">--------- MSRP ---------</div>
+                                <div class="price">
+                                    <span>$16.03</span>
+                                    <span>$17.73</span>
+                                    <span>$18.13</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-view-details">
+                            <a class="view-details" href="http://keyeddifferent.com/product/2548/5-laminated-steel-padlocks">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--</editor-fold>-->
+        <!--End 3rd Popular Model-->
+
+        <!--Start 4th Popular Model-->
+        <!--<editor-fold desc="Popular Model">-->
+        <div class="item-wrapper">                                              <!-- col's defined in less -->
+            <div class="item">
+                <div class="item-image-wrapper">
+                    <div class="item-title">
+                        <div class="construction-type">Laminated Brass</div>
+                        <div class="item-width">2in (51mm) Body Width</div>
+                    </div>
+                    <!--region Individual Images-->
+                    <div class="item-images">
+                        <a href="http://keyeddifferent.com/product/2603/6-laminated-brass-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/6.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2608/6lf-laminated-brass-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/6lf.png" alt="" />
+                        </a>
+                        <a href="http://keyeddifferent.com/product/2610/6lj-laminated-brass-padlocks">
+                            <img class="item-image img-responsive" src="dist/images/6lj.png" alt="" />
+                        </a>
+                    </div>
+                    <!--endregion-->
+                </div>
+                <div class="item-desc-wrapper">
+                    <div class="item-models">
+                        <a href="http://keyeddifferent.com/product/2603/6-laminated-brass-padlocks">6</a> -
+                        <a href="http://keyeddifferent.com/product/2608/6lf-laminated-brass-padlocks">6LF</a> -
+                        <a href="http://keyeddifferent.com/product/2610/6lj-laminated-brass-padlocks">6LJ</a>
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-price">
+                            <div class="price-hpi">
+                                <span>$14.89</span>
+                                <span>$16.05</span>
+                                <span>$16.35</span>
+                            </div>
+                            <div class="price-msrp">
+                                <div class="msrp">--------- MSRP ---------</div>
+                                <div class="price">
+                                    <span>$20.42</span>
+                                    <span>$22.02</span>
+                                    <span>$22.42</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-view-details">
+                            <a class="view-details" href="http://keyeddifferent.com/product/2603/6-laminated-brass-padlocks">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--</editor-fold>-->
+        <!--End 4th Popular Model-->
+    </div>
+</div>
+<!-- END POPULAR MODELS (4 PRODUCTS, 2 ROWS) -->
+
+<!-- *********** END MAIN FOR HOMETOPINTRO *********** -->
+
+<!--START BANNER ADS BELOW CAROUSEL-->
+<div class="container wrapper-category">
+    <div class="row">
+        <div class="element">                                       <!-- col's defined in less -->
+            <a href="http://keyedalike.com" target="_blank">
+                <img alt="" class="category img-responsive" src="dist/images/sites-keyed-alike.png" />
+            </a>
+        </div>
+        <div class="element">                                       <!-- col's defined in less -->
+            <a href="http://aspdotnetstorefront.combolock.com" target="_blank">
+                <img alt="" class="category img-responsive" src="dist/images/sites-combolock.png" />
+            </a>
+        </div>
+        <div class="element">                                       <!-- col's defined in less -->
+            <a href="//buildalock.com/KeyGenerator.aspx" target="_blank">
+                <img alt="" class="category img-responsive" src="dist/images/sites-matchKey.png" />
+            </a>
+        </div>
+    </div>
+</div>
+<!--END BANNER ADS BELOW CAROUSEL-->
+
+<!-- START FOOTER-->
+<div class="container-fluid container-footer">
+    <div class="row row-footer">
+        <div class="info-wrapper">
+
+            <!--START FIRST FOOTER BOX-->
+            <div class="info-footer footer1">
+
+                <div class="padlock-pros">
+                    <a href="/">
+                        <img class="logo img-responsive" src="dist/images/logo-padlock-pros.png" />
+                    </a>
+                    <div class="logo-link-text"><a href="/">KeyedDifferent.com</a></div>
+                    
+                </div>
+                <div class="contact">
+                    <h1>1-800-778-2217</h1>
+                    <span>Corporate Headquarters:</span><br>
+                    <span>9316 Wheatlands Rd.#C, Santee, CA 92071</span>
+                </div>
+                <div class="logo-affiliates">
+                    <img class="better-business" src="/images/assets/BBB.png" width="125px"/>
+                    <a href="/topic/secure">
+                        <img class="secure" src="/images/assets/HPI_Secure.png" width="125px" />
+                    </a>
+                    <img class="credit-cards" src="/images/assets/CreditCards.png" width="175px"/>
+                    <img class="paypal" src="/images/assets/Paypal.jpg" width="75px"/>
+                </div>
+                <div class="copy">
+                    <p>Copyright © 1997-2017 - Hodge Products, Inc.</p><span>All rights reserved.</span>
+                    <p>Serving people and businesses since 1971</p>
+                </div>
+            </div>
+            <!--END FIRST FOOTER BOX-->
+
+            <!--START SECOND FOOTER BOX-->
+            <div class="info-footer footer2">
+                <div class="content-left">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="/topic/about">About Us</a></li>
+                        <li><a href="/account#OrderHistory">Order History</a></li>
+                        <li><a href="/topic/shipping">Shipping Information</a></li>
+                        <li><a href="/topic/returns">Return Policy</a></li>
+                        <li><a href="/contactus">Feedback</a></li>
+                        <li><a href="/sitemap.aspx">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="content-right">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="/topic/about">About Us</a></li>
+                        <li><a href="/contactus">Contact Us</a></li>
+                        <li><a href="/topic/privacy">Privacy Policy</a></li>
+                        <li><a href="/topic/termsandconditions">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="social">
+                    <div class="content-left">
+                        <h3>Connect With Us</h3>
+                        <ul>
+                            <a href="http://www.facebook.com/thelockpeople" target="_blank"><li class="fa fa-facebook"></li></a>
+                            <a href="http://www.twitter.com/thelockpeople" target="_blank"><li class="fa fa-twitter"></li></a>
+                            <!--<a href="https://www.linkedin.com/company-beta/2983270/?pathWildcard=2983270" target="_blank"><li class="fa fa-linkedin"></li></a>-->
+                            <a href="http://www.instagram.com/thelockpeople" target="_blank"><li class="fa fa-instagram"></li></a>
+                            <a href="https://www.youtube.com/thelockpeople" target="_blank"><li class="fa fa-youtube"></li></a>
+                        </ul>
+                    </div>
+                    <div class="content-right">
+                        <ul>
+                            <li><a id="LivechatButtonx" href="https://chat.livechatinc.net/licence/1032405/open_chat.cgi?lang=en&amp;groups=0" target="chat_1032405_chat.livechatinc.net" onclick="window.open('https://chat.livechatinc.net/licence/1032405/open_chat.cgi?lang=en&amp;groups=0&amp;'+'dc='+escape(document.cookie+';l='+document.location+';r='+document.referer+';s='+typeof lc_session),'Czat_1032405','width=530,height=520,resizable=yes,scrollbars=no,status=1');return false;"><img src="https://chat.livechatinc.net/licence/1032405/button.cgi?lang=en&amp;groups=0&amp;d=1475094635553" style="border: 0px;"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!--END SECOND FOOTER BOX-->
+
+            <!--START THIRD FOOTER BOX-->
+            <div class="info-footer footer3">
+                <h4>Request a Quote</h4>
+                <form action="/contactus" method="post" novalidate="novalidate">
+                    <div class="form contact-form">
+                        <div class="form-group-full form-group has-feedback">
+                            <div class="entry-feedback-wrapper">
+                                <input autocomplete="name" class="form-control text-box single-line" data-val="true" data-val-required="Your first and last name are required." id="From" name="From" placeholder="Full Name" required="required" type="text" value="" aria-required="true">
+                                <i class="fa form-control-feedback"></i>
+                            </div>
+                            <span class="field-validation-valid form-validation-message" data-valmsg-for="From" data-valmsg-replace="true"></span>
+                        </div>
+
+                        <div class="form-group-full form-group has-feedback">
+                            <div class="entry-feedback-wrapper">
+                                <input autocomplete="tel" class="form-control text-box single-line" data-val="true" data-val-required="Your phone number is required." id="Phone" name="Phone" placeholder="Phone Number" required="required" type="tel" value="" aria-required="true">
+                                <i class="fa form-control-feedback"></i>
+                            </div>
+                            <span class="field-validation-valid form-validation-message" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group-full form-group has-feedback">
+                        <div class="entry-feedback-wrapper">
+                            <input autocomplete="email" class="form-control text-box single-line" data-val="true" data-val-regex="ContactUs.EmailAddress.Format" data-val-regex-pattern="^.+@.+\..+$" data-val-required="Your email address is required." id="Email" name="Email" placeholder="Email Address" required="required" type="email" value="" aria-required="true">
+                            <i class="fa form-control-feedback"></i>
+                        </div>
+                        <span class="field-validation-valid form-validation-message" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                    </div>
+
+                    <div class="form-group-full form-group has-feedback">
+                        <div class="entry-feedback-wrapper">
+                            <input class="form-control text-box single-line" data-val="true" data-val-required="Email subject is required." id="Subject" name="Subject" placeholder="Subject" required="required" type="hidden" value="KeyedDifferent.com - Quote Request" aria-required="true">
+                            <i class="fa form-control-feedback"></i>
+                        </div>
+                        <span class="field-validation-valid form-validation-message" data-valmsg-for="Subject" data-valmsg-replace="true"></span>
+                    </div>
+
+                    <div class="form-group-full form-group has-feedback">
+                        <div class="entry-feedback-wrapper">
+                            <textarea class="form-control text-box multi-line" data-val="true" data-val-required="Message is required." id="Message" name="Message" placeholder="What can we help you with?" required="required" aria-required="true"></textarea>
+                            <i class="fa form-control-feedback"></i>
+                        </div>
+                        <span class="field-validation-valid form-validation-message" data-valmsg-for="Message" data-valmsg-replace="true"></span>
+                    </div>
+
+                    <div class="form-group-captcha form-group-full form-group has-feedback">
+                        <div class="input-group entry-feedback-wrapper">
+                            <input class="form-control text-box single-line" data-val="true" data-val-required="Captcha is required." id="CaptchaCode" name="CaptchaCode" required="required" type="text" value="" aria-required="true">
+                            <span class="input-group-addon input-group-addon-captchaimage">
+                                <img src="/captcha?scope=ContactUsIndex"></span>
+                        </div>
+                        <span class="field-validation-valid form-validation-message" data-valmsg-for="CaptchaCode" data-valmsg-replace="true"></span>
+                    </div>
+
+                    <div class="page-action-bar contact-us-actions">
+                        <input type="submit" class="btn btn-primary submit-contact-button" value="Submit">
+                    </div>
+                </form>
+            </div>
+            <!--END THIRD FOOTER BOX-->
+
+        </div>
+    </div>
+</div>
+<!-- END FOOTER-->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="docs/assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="dist/js/bootstrap.min.js"></script>
+<script src="dist/js/page.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
