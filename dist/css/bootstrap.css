@@ -7018,8 +7018,7 @@ body {
 }
 .wrapper-subnav .subnavall {
   height: 50px;
-  background-color: #ccd631;
-  background-image: url("/skins/skin_20/dist/images/bg-banner.jpg");
+  background-color: #497890;
 }
 .logo {
   float: left;
@@ -7216,7 +7215,7 @@ body {
   margin-right: -15px;
   margin-bottom: 0;
   margin-left: -15px;
-  background-color: #7b7b7b;
+  background-color: #b7b7b7;
 }
 .main-nav li:hover {
   background-color: #8f8f8f;
@@ -8524,7 +8523,7 @@ span.pageHeadingWrap {
   margin-right: 5px;
   color: #000;
   text-decoration: none;
-  background-color: fbfbfb !important;
+  background-color: #fbfbfb !important;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid lightgray;

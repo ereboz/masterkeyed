@@ -1,4 +1,4 @@
-//* Created by javaBoxer on 6/22/2017.
+//* Created by javaBoxer on 7/26/2017.
 
 
 /* Developer Notes
@@ -44,44 +44,50 @@ unpolluted with (col-md-4 col-lg-6, etc.)
 
 /* DEFINE OUR GLOBAL VARIABLES
 ========================================================================== */
+
+// Font Variables
 @font-subnav: "Bitter Regular", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
 @font-roboto: "Roboto",sans-serif;
 @font-nunito: 'Nunito Sans', sans-serif;
-@gray-background: #f5f7f9;
-@white: #fff;
-@white-off: fbfbfb;
-@black: #000;
-@white: #fff;
 
-// keyeddifferent colors (banner)
+
+// Color Variables
+@black: #000;
+@blue: #29ABE2;
+@blue1: #337ab7;
+@blue2: #286090;
+@blue-primary: #497890;
+@blue-secondary: #b7b7b7;
+@dark-gray: #333;
 @gold: #ccd631;
-@gray-light: #d3d3d3;
-@slate-gray: #444f45;
+@gray-background: #f5f7f9;
 @gray-dark: #7b7b7b;
-@red: #ca2626;
+@gray-light: #d3d3d3;
+@gray-med1: #ddd;
+@gray-med3: #929292;
+@gray-med4: #e6e8ea;
+@gray-medium: #7b7a7a;
+@gray-superlight: #e8e1e1;
 @light-gray1: #e0e0e0;
 @light-gray2: #f8f8f8;
 @light-gray3: #f3f5f6;
 @light-gray5: #e0dcdc;
 @light-gray6: #dedada;
-@gray-superlight: #e8e1e1;
-@blue: #29ABE2;
-@blue1: #337ab7;
-@blue2: #286090;
-@gray-medium: #7b7a7a;
-@powder-blue: rgba(41, 171, 226, 0.06); // not used
 @med-gray: #616161;
-@dark-gray: #333;
-@gray-med1: #ddd;
-@gray-med3: #929292;
-@gray-med4: #e6e8ea;
+@powder-blue: rgba(41, 171, 226, 0.06); // not used
+@red: #ca2626;
+@slate-gray: #444f45;
+@white: #fff;
+@white-off: #fbfbfb;
 
+// Bootstrap Grid Variables
 @screen-xxxs: 320px;
 @screen-xxs: 375px;
 @screen-tablet-md-min: 780px;
 @screen-tablet-md-max: 800px;
 
-// Custom Grid Variables
+// Brian Custom Grid Variables
+// min-widths
 @phone-xxxs-min: ~"(min-width: 320px)";
 @phone-xxs-min: ~"(min-width: 375px)";
 @phone-min: ~"(min-width: 480px)";
@@ -89,6 +95,7 @@ unpolluted with (col-md-4 col-lg-6, etc.)
 @desktop-min: ~"(min-width: 992px)";
 @desktop-large-min: ~"(min-width: 1200px)";
 
+// max-widths
 @phone-xxxs-max: ~"(max-width: 320px)";
 @phone-xxs-max: ~"(max-width: 375px)";
 @phone-max: ~"(max-width: 480px)";
@@ -353,9 +360,9 @@ body {
 
     .subnavall {
         height: 50px;
-        background-color: @gold;
+        background-color: @blue-primary;
         //background-image: url("http://localhost:63342/keyeddifferent/dist/images/bg-banner.jpg");
-        background-image: url("/skins/skin_20/dist/images/bg-banner.jpg");
+        //background-image: url("/skins/skin_20/dist/images/bg-banner.jpg");
     }
 }
 
@@ -546,7 +553,7 @@ body {
 
 .main-nav {
     margin-bottom: 0;
-    background-color: @gray-dark;
+    background-color: @blue-secondary;
     margin-left: -15px;
     margin-right: -15px;
     
