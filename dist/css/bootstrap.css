@@ -6887,7 +6887,7 @@ unpolluted with (col-md-4 col-lg-6, etc.)
 /* PAGE OVERRIDES
 ========================================================================== */
 body {
-  font-family: "Roboto", sans-serif !important;
+  font-family: 'Assistant', sans-serif !important;
 }
 .btn {
   color: #000;
@@ -7044,7 +7044,7 @@ body {
 .subnav-left {
   float: left;
   margin-top: 5px;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 @media (max-width: 320px) {
   .subnav-left {
@@ -7079,12 +7079,14 @@ body {
   }
 }
 .subnav-left .domain-wrapper .domain-1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 28px;
+  margin-right: 5px;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
   font-weight: 400;
-  color: #444f45;
+  color: #fff;
   text-shadow: 1px 1px 2px #7b7b7b;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 @media (max-width: 320px) {
   .subnav-left .domain-wrapper .domain-1 {
@@ -7097,12 +7099,13 @@ body {
   }
 }
 .subnav-left .domain-wrapper .domain-2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 28px;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
   font-weight: 400;
   color: #fff;
   text-shadow: 1px 1px 2px #7b7b7b;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 @media (max-width: 320px) {
   .subnav-left .domain-wrapper .domain-2 {
@@ -7117,10 +7120,13 @@ body {
 .subnav-left .logo-vendors {
   float: right;
   margin-top: 3px;
-  margin-left: 15px;
+  margin-left: 35px;
 }
 .subnav-left .logo-vendors img {
   float: left;
+}
+.subnav-left .logo-vendors img[src*="masterlock"] {
+  margin-right: 10px;
 }
 .search-wrapper {
   position: relative;
@@ -7517,9 +7523,6 @@ span.glyphicon.glyphicon-chevron-left {
 .product-slider-head {
   margin-bottom: 10px;
 }
-.product-slider-head .product-slider-title {
-  font-family: "Roboto", sans-serif;
-}
 .product-slider-head .product-slider-chevrons .controls {
   margin: 30px 13px 0 0;
 }
@@ -7607,7 +7610,6 @@ span.glyphicon.glyphicon-chevron-left {
   margin-bottom: 20px;
 }
 .product-wrapper {
-  font-family: "Roboto", sans-serif;
   font-size: 15px !important;
 }
 .product-image-bg {
@@ -7671,7 +7673,6 @@ span.glyphicon.glyphicon-chevron-left {
   height: 36px;
   padding: 7px 15px 7px 10px;
   margin: 0 auto;
-  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 700;
   color: #000;
@@ -7774,7 +7775,6 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
   height: 45px;
   padding: 14px 5px 5px 10px;
   overflow: hidden;
-  font-family: "Roboto Condensed", sans-serif;
   font-size: 12px;
   color: #000;
   text-align: center;
@@ -7963,7 +7963,6 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
   height: 36px;
   padding: 7px 15px 7px 10px;
   margin: 0 auto;
-  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 700;
   color: #000;

@@ -46,9 +46,13 @@ unpolluted with (col-md-4 col-lg-6, etc.)
 ========================================================================== */
 
 // Font Variables
+@font-anton: 'Anton', sans-serif;           // domain name primaryily
 @font-subnav: "Bitter Regular", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
-@font-roboto: "Roboto",sans-serif;
 @font-nunito: 'Nunito Sans', sans-serif;
+@font-roboto: "Roboto",sans-serif;
+@font-worksans: 'Work Sans', sans-serif; // ?
+@font-didact: 'Didact Gothic', sans-serif;
+@font-assistant: 'Assistant', sans-serif;
 
 
 // Color Variables
@@ -113,7 +117,7 @@ unpolluted with (col-md-4 col-lg-6, etc.)
     padding: 7px 15px 7px 10px;
     height: 36px;
     background: white;
-    font-family: @font-roboto;
+    //font-family: @font-roboto;
     font-size: 12px;
     font-weight: 700;
     text-decoration: none;
@@ -138,7 +142,7 @@ unpolluted with (col-md-4 col-lg-6, etc.)
     height: 45px;
     padding: 14px 5px 5px 10px;
     overflow: hidden;
-    font-family: "Roboto Condensed",sans-serif;
+    //font-family: "Roboto",sans-serif;
     font-size: 12px;
     color: @black;
     text-decoration: none;
@@ -210,7 +214,7 @@ unpolluted with (col-md-4 col-lg-6, etc.)
 ========================================================================== */
 
 body {
-    font-family: @font-roboto !important;
+    font-family: @font-assistant !important;
 }
 
 .btn {
@@ -382,7 +386,7 @@ body {
 
 .subnav-left {
     float: left;
-    margin-left: 5px;
+    margin-left: 15px;
     margin-top: 5px;
     
     // special case to handle. 320px max (iphone 5)
@@ -419,11 +423,13 @@ body {
         }
         
         .domain-1 {
-            font-size: 28px;
+            margin-right: 5px;
+            font-size: 30px;
             font-weight: 400;
-            font-family: @font-roboto;
-            color: @slate-gray;
+            font-family: @font-anton;
+            color: @white;
             text-transform: uppercase;
+            letter-spacing: 1px;
             .text-shadow(1px, 1px, 2px, @gray-dark);
         
             // special case to handle. 320px max (iphone 5)
@@ -437,11 +443,12 @@ body {
         }
     
         .domain-2 {
-            font-size: 28px;
+            font-size: 30px;
             font-weight: 400;
-            font-family: @font-roboto;
+            font-family: @font-anton;
             color: @white;
             text-transform: uppercase;
+            letter-spacing: 1px;
             .text-shadow(1px, 1px, 2px, @gray-dark);
         
         
@@ -459,11 +466,15 @@ body {
     
     .logo-vendors {
         float: right;
-        margin-left: 15px;
+        margin-left: 35px;
         margin-top: 3px;
         
         img {
             float: left;
+        }
+    
+        img[src*="masterlock"] {
+            margin-right: 10px
         }
     }
 }
@@ -915,10 +926,6 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left {
 .product-slider-head {
     margin-bottom: 10px;
     
-    .product-slider-title {
-        font-family: @font-roboto;
-    }
-    
     .product-slider-chevrons {
         .controls {
             margin: 30px 13px 0 0;
@@ -983,7 +990,7 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left {
 }
 
 .product-wrapper {
-    font-family: @font-roboto;
+    //font-family: @font-roboto;
     font-size: 15px !important;
 }
 
