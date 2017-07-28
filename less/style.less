@@ -138,8 +138,7 @@ unpolluted with (col-md-4 col-lg-6, etc.)
 .btn-view-details() {               // Best Sellers
     display: block;
     float: left;
-    width: 60%;
-    height: 45px;
+    .size(200px, 50px);
     padding: 14px 5px 5px 10px;
     overflow: hidden;
     //font-family: "Roboto",sans-serif;
@@ -155,7 +154,7 @@ unpolluted with (col-md-4 col-lg-6, etc.)
     transition: all .2s ease-in-out;
     
     &:hover {
-        background-color: @blue;
+        background-color: @blue-primary;
         color: @white;
     }
 }
@@ -702,7 +701,6 @@ body {
         top: -20%;
         left: 45%;
         color: @black;
-        font-family: @font-subnav;
         text-shadow: none;
         
         @media (min-width: @screen-xs) {  // was @screen-tablet
@@ -1149,38 +1147,15 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
     }
     
     .details {
-        .btn-view-details();
-        display: block;
-        position: relative;
-        float: left;
-        .size(60%, 45px);
-    
-        a {
-            display: inline-block;
-            margin-top: -6px;
-            
-            @media @desktop-min {
-                margin-top: 0;
-            }
-        
-            &:link {
-                color: @black;
-                text-decoration: none;
-            }
-            &:hover {
-                color: @white !important;
-                background-color: transparent;
-            }
-            &:visited {
-                color: @gray-light;
-            }
-            &:active {
-                color: @black;
-            }
+        a.view-details {
+            .btn-view-details();
+            display: block;
+            position: relative;
+            float: left;
+            .size(60%, 45px);
         }
-        
     }
-    
+
     
     .saleOnly {
         margin-top: 8px;
@@ -1188,10 +1163,7 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
     }
 }
 
-.product-desc-wrapper,.product-footer-wrapper {
-    //font-family: @font-subnav;
-    //font-size: 15px;
-}
+
 //End Product Slider
 
 .prod-plp {

@@ -7312,7 +7312,6 @@ body {
   top: -20%;
   left: 45%;
   width: 48%;
-  font-family: "Bitter Regular", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
   color: #000;
   text-shadow: none;
 }
@@ -7767,11 +7766,13 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
 .product-footer-wrapper .prices .retail-price {
   text-decoration: line-through;
 }
-.product-footer-wrapper .details {
+.product-footer-wrapper .details a.view-details {
   position: relative;
   display: block;
   float: left;
+  width: 200px;
   width: 60%;
+  height: 50px;
   height: 45px;
   padding: 14px 5px 5px 10px;
   overflow: hidden;
@@ -7786,32 +7787,9 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
-.product-footer-wrapper .details:hover {
+.product-footer-wrapper .details a.view-details:hover {
   color: #fff;
-  background-color: #29abe2;
-}
-.product-footer-wrapper .details a {
-  display: inline-block;
-  margin-top: -6px;
-}
-@media (min-width: 992px) {
-  .product-footer-wrapper .details a {
-    margin-top: 0;
-  }
-}
-.product-footer-wrapper .details a:link {
-  color: #000;
-  text-decoration: none;
-}
-.product-footer-wrapper .details a:hover {
-  color: #fff !important;
-  background-color: transparent;
-}
-.product-footer-wrapper .details a:visited {
-  color: #d3d3d3;
-}
-.product-footer-wrapper .details a:active {
-  color: #000;
+  background-color: #497890;
 }
 .product-footer-wrapper .saleOnly {
   display: inline-block;
