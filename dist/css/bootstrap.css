@@ -7042,9 +7042,8 @@ body {
   }
 }
 .subnav-left {
-  float: left;
+  float: none;
   margin-top: 5px;
-  margin-left: 15px;
 }
 @media (max-width: 320px) {
   .subnav-left {
@@ -7072,6 +7071,7 @@ body {
 .subnav-left .domain-wrapper {
   float: left;
   margin-top: 0;
+  margin-left: 8px;
 }
 @media (min-width: 768px) {
   .subnav-left .domain-wrapper {
@@ -7120,7 +7120,6 @@ body {
 .subnav-left .logo-vendors {
   float: right;
   margin-top: 3px;
-  margin-left: 35px;
 }
 .subnav-left .logo-vendors img {
   float: left;

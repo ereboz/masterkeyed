@@ -384,7 +384,8 @@ body {
 }
 
 .subnav-left {
-    float: none;
+    float: left;
+    margin-left: 15px;
     margin-top: 5px;
     
     // special case to handle. 320px max (iphone 5)
@@ -415,7 +416,6 @@ body {
     .domain-wrapper {
         float: left;
         margin-top: 0;
-        margin-left: 8px;
         
         @media @tablet-min {
             margin-top: -5px;
@@ -465,6 +465,7 @@ body {
     
     .logo-vendors {
         float: right;
+        margin-left: 35px;
         margin-top: 3px;
         
         img {
