@@ -517,7 +517,7 @@ body {
 		font-family: @font-roboto !important;
         
         &:hover {
-            background-color: darken(@blue-secondary, 10%);
+            background-color: darken(@blue-primary, 10%);
         }
         
 		a {
@@ -530,12 +530,12 @@ body {
 			}
 			&:hover {
                 font-weight: 700;
-                color: lighten(@gray-light, 5%);
+                color: @white;
                 background-color: transparent;
 			}
 			&:visited {
                 font-weight: 700;
-                color: @gray-light;
+                color: @white
 			}
 			&:active {
                 font-weight: 700;
@@ -592,10 +592,10 @@ body {
     clear: left;
     
     ul li {
-        font-family: @font-roboto;
         font-size: 15px;
         font-weight: 300;
         text-transform: uppercase;
+        letter-spacing: 1px;
     }
     // target the ul with text to main sections and move up so border hover action is even vertically.
     .navbar-nav:first-child {
