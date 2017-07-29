@@ -7875,7 +7875,7 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
 }
 .item-desc-wrapper .item-models {
   letter-spacing: 1px;
-  word-spacing: 20px;
+  word-spacing: 11px;
 }
 @media (min-width: 768px) {
   .item-desc-wrapper .item-models {
@@ -7886,7 +7886,7 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
 @media (min-width: 992px) {
   .item-desc-wrapper .item-models {
     letter-spacing: 1px;
-    word-spacing: 17px;
+    word-spacing: 7px;
   }
 }
 .item-desc-wrapper .item-desc .price-hpi {
