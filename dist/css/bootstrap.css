@@ -7896,7 +7896,7 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
 }
 @media (min-width: 768px) {
   .item-desc-wrapper .item-desc .price-hpi {
-    word-spacing: 3px;
+    word-spacing: 6px;
   }
 }
 @media (min-width: 992px) {
@@ -7911,20 +7911,20 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
 }
 .item-desc-wrapper .item-desc .price-msrp {
   margin-bottom: 10px;
-  font-size: 12px;
+  font-size: 13px;
   color: #929292;
 }
 .item-desc-wrapper .item-desc .price-msrp .price {
-  word-spacing: 40px;
+  word-spacing: 35px;
 }
 @media (min-width: 768px) {
   .item-desc-wrapper .item-desc .price-msrp .price {
-    word-spacing: 4px;
+    word-spacing: 7px;
   }
 }
 @media (min-width: 992px) {
   .item-desc-wrapper .item-desc .price-msrp .price {
-    word-spacing: 30px;
+    word-spacing: 26px;
   }
 }
 .item-desc-wrapper .item-desc .btn-view-details {
