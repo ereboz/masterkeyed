@@ -7038,7 +7038,7 @@ body {
 @media (min-width: 768px) {
   .subnav-elements {
     float: left;
-    width: 50%;
+    width: 33.33333333%;
   }
 }
 .subnav-left {
@@ -7139,13 +7139,7 @@ body {
 @media (min-width: 768px) {
   .search-wrapper {
     float: left;
-    width: 50%;
-  }
-}
-@media (min-width: 992px) {
-  .search-wrapper {
-    float: left;
-    width: 25%;
+    width: 33.33333333%;
   }
 }
 .search .form-control-inline.search-box {
@@ -7160,10 +7154,10 @@ body {
   padding-left: 15px;
   color: #fff;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .subnav-wrapper {
     float: left;
-    width: 25%;
+    width: 33.33333333%;
   }
 }
 .sub-nav {
