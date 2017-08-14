@@ -8644,6 +8644,9 @@ td.guidedNavProductCell:hover {
 ========================================================================== */
 /* globals affecting everything
 ========================================================================== */
+.checkout-page .field-validation-error {
+  color: #f00;
+}
 .shopping-cart-page.empty-shopping-cart {
   margin-bottom: 20px;
 }
