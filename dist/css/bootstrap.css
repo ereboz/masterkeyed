@@ -7283,6 +7283,9 @@ body {
     border: 1px solid #7b7a7a;
   }
 }
+#myCarousel .carousel-inner .item {
+  background-image: url("/skins/skin_20/dist/images/bg-slide-blank.jpg");
+}
 @media (min-width: 1200px) {
   #myCarousel .carousel-inner .item.slide1 {
     background-image: url("/skins/skin_20/dist/images/bg-slide-blank.jpg");
