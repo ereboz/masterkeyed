@@ -8763,6 +8763,7 @@ h3.checkout-header i.checkout-status {
 }
 .checkout-details .cart-actions {
   position: relative;
+  left: 63%;
   display: inline-block;
   margin: 5px 0 20px 0;
 }
