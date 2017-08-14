@@ -6942,7 +6942,7 @@ body {
   font-weight: bold;
 }
 .banner-phone .banner-phone-text .phone-text {
-  color: #ca2626;
+  color: #f00;
 }
 .banner-phone .banner-phone-text .phone-number {
   color: #000;
@@ -8516,7 +8516,7 @@ span.pageHeadingWrap {
 /* Forms (global)
 ========================================================================== */
 form .has-error {
-  color: #ca2626;
+  color: #f00;
 }
 .notices {
   color: red;
@@ -8594,7 +8594,7 @@ td.guidedNavProductCell {
 }
 td.guidedNavProductCell .guidedNavPriceWrap .price-wrap .sale-price {
   font-weight: bold;
-  color: #ca2626;
+  color: #f00;
 }
 td.guidedNavProductCell:hover {
   border-bottom: 2px solid #000;
