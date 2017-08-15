@@ -7079,6 +7079,11 @@ body {
   margin-top: 0;
   margin-left: 8px;
 }
+@media (min-width: 992px) {
+  .subnav-left .domain-wrapper {
+    margin-top: -4px;
+  }
+}
 .subnav-left .domain-wrapper .domain-1 {
   margin-right: 5px;
   font-family: 'Anton', sans-serif;
