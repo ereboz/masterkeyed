@@ -380,7 +380,8 @@ body {
 
 .subnav-elements {
     .make-xs-column(12);     // 480px (min)
-    .make-sm-column(6);     // 768px (min)
+    .make-sm-column(4);     // 768px (min)
+    .make-md-column(5);
 }
 
 .subnav-left {
@@ -417,10 +418,6 @@ body {
         margin-top: 0;
         margin-left: 8px;
         
-        @media @tablet-min {
-            margin-top: -5px;
-        }
-        
         .domain-1 {
             margin-right: 5px;
             font-size: 30px;
@@ -434,6 +431,10 @@ body {
             // special case to handle. 320px max (iphone 5)
             @media @phone-xxxs-max {
                 font-size: 18px;
+            }
+            
+            @media @tablet-max {
+                font-size: 21px;
             }
         
             @media @desktop-min {
@@ -454,6 +455,10 @@ body {
             // special case to handle. 320px max (iphone 5)
             @media @phone-xxxs-max {
                 font-size: 18px;
+            }
+    
+            @media @tablet-max {
+                font-size: 21px;
             }
         
             @media @desktop-min {
@@ -479,8 +484,8 @@ body {
 
 .search-wrapper {
     
-    .make-sm-column(6);     // 768px (min)
-    .make-md-column(3);     // 992px (min)
+    .make-sm-column(3);     // 768px (min)
+    .make-md-column(3);
     
     margin-top: 7px;
     width: 100%;
@@ -500,7 +505,8 @@ body {
 // todo-bh: last make col conversion
 .subnav-wrapper {
     
-    .make-md-column(3);     // 992px (min)
+    .make-sm-column(5);     // 768px (min)
+    .make-md-column(4);
     
     color: @white;
     height: 30px;
@@ -544,7 +550,7 @@ body {
 	}
 
     @media @tablet-max {
-        display: none;
+        display: block;
     }
 
     @media @desktop-min {

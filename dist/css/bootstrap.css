@@ -7038,7 +7038,13 @@ body {
 @media (min-width: 768px) {
   .subnav-elements {
     float: left;
-    width: 50%;
+    width: 33.33333333%;
+  }
+}
+@media (min-width: 992px) {
+  .subnav-elements {
+    float: left;
+    width: 41.66666667%;
   }
 }
 .subnav-left {
@@ -7073,11 +7079,6 @@ body {
   margin-top: 0;
   margin-left: 8px;
 }
-@media (min-width: 768px) {
-  .subnav-left .domain-wrapper {
-    margin-top: -5px;
-  }
-}
 .subnav-left .domain-wrapper .domain-1 {
   margin-right: 5px;
   font-family: 'Anton', sans-serif;
@@ -7091,6 +7092,11 @@ body {
 @media (max-width: 320px) {
   .subnav-left .domain-wrapper .domain-1 {
     font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .subnav-left .domain-wrapper .domain-1 {
+    font-size: 21px;
   }
 }
 @media (min-width: 992px) {
@@ -7110,6 +7116,11 @@ body {
 @media (max-width: 320px) {
   .subnav-left .domain-wrapper .domain-2 {
     font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .subnav-left .domain-wrapper .domain-2 {
+    font-size: 21px;
   }
 }
 @media (min-width: 992px) {
@@ -7139,7 +7150,7 @@ body {
 @media (min-width: 768px) {
   .search-wrapper {
     float: left;
-    width: 50%;
+    width: 25%;
   }
 }
 @media (min-width: 992px) {
@@ -7160,10 +7171,16 @@ body {
   padding-left: 15px;
   color: #fff;
 }
+@media (min-width: 768px) {
+  .subnav-wrapper {
+    float: left;
+    width: 41.66666667%;
+  }
+}
 @media (min-width: 992px) {
   .subnav-wrapper {
     float: left;
-    width: 25%;
+    width: 33.33333333%;
   }
 }
 .sub-nav {
@@ -7200,7 +7217,7 @@ body {
 }
 @media (max-width: 768px) {
   .sub-nav {
-    display: none;
+    display: block;
   }
 }
 @media (min-width: 992px) {
